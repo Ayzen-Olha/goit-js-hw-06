@@ -19,10 +19,7 @@ let listEl = [];
 
 images.forEach((image) => {
   const itemEl = document.createElement("li");
-  itemEl.classList.add("gallery__item");
-
   const imageEl = document.createElement("img");
-  imageEl.classList.add("gallery__img");
 
   galleryEl.style.listStyleType = "none";
   itemEl.appendChild(imageEl);
